@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Vou buscar os dados do sistema [yn]
+read RESPOSTA
+test "RESPOSTA" = "n" && exit
+echo "Data Atual" 
+date
+echo "Dados do Sistema"
+df
+echo "Usuario"
+w
