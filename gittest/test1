@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Data Atual" 
 date
+echo "Dados do Sistema"
 df
 w
 
