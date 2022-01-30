@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "numero a é: $1"
+echo "numero b é: $2"
+if test $1 -eq $2
+then 
+echo "numero a é igual a numero b"
+elif test $1 -lt $2
+then
+echo "numero a é maior que numbero b"
+else
+echo "numero a é menor que numero b"
+fi
