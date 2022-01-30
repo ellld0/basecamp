@@ -8,3 +8,4 @@ echo "Dados do Sistema"
 df
 echo "Usuario"
 w
+#FINAL
